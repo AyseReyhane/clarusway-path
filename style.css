@@ -1,0 +1,88 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-image: linear-gradient( 90deg, #060025 0%, #c0509c 35%, #268ca0 100% );
+ }
+
+ header{
+    text-align: center;
+    color: white;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 5rem;
+    letter-spacing: .05em;
+    margin: 3rem 0;
+ }
+
+.clear{
+   clear:both;
+}
+
+.section{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 3rem auto;
+    width: 75rem;
+    height: 15rem;
+ }
+
+ .section-img{
+    margin-right: 1rem;
+    margin-top: .2rem;
+    width: 30%;
+    height: 98%; 
+    float: left;
+    cursor: pointer;
+ }
+ .section-img:hover{
+   width: 34%;
+   height: 99%;
+ }
+
+
+
+.section h3{
+    color: rgb(223, 109, 8);
+    font-size: 2rem;
+    margin-bottom: .8rem;
+    font-weight: 700;
+ }
+
+ .section p{
+    text-align:justify;
+    text-indent: 1rem;
+    font-weight: 300;
+    color: white;
+ }
+
+.button{
+    float: right;
+    background-color: rgb(226, 113, 15);
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    padding: .9rem;
+    cursor: pointer;
+    position: relative;
+    top:.8rem;
+    right: .8rem;
+    text-decoration: none;
+}
+
+.button:hover{
+    float: right;
+    background-color: rgb(229, 138, 57);
+    border: none;
+    border-radius: .3rem;
+    padding:  1.2rem 1.2rem ;
+    cursor: pointer;
+}
+
+
